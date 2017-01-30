@@ -1,0 +1,24 @@
+/****** Styling *****/
+h1{
+  color: red;
+  font-size: 6em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.char1 {
+  color: green;
+}
+
+.char2 {
+  color: purple;
+}
+
+.char3 {
+  color: blue
+  letter-spacing: 50px;
+}
+
+.char4 {
+  color: yellow
+}
