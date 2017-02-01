@@ -1,24 +1,3 @@
-/****** Styling *****/
-h1{
-  color: red;
-  font-size: 6em;
-  text-transform: uppercase;
-  text-align: center;
-}
+body{background:rosybrown}h1{text-transform:uppercase;color:aliceblue}
 
-.char1 {
-  color: green;
-}
-
-.char2 {
-  color: purple;
-}
-
-.char3 {
-  color: blue
-  letter-spacing: 50px;
-}
-
-.char4 {
-  color: yellow
-}
+/*# sourceMappingURL=styles.css.map */
