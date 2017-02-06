@@ -1,6 +1,12 @@
-// My Scripts
+// FitTex
 $('h1').fitText(1.8);
+
+$
+// Lettering
 $('h1').lettering();
-$(document).ready(function(){
-    $("header").fitVids();
-  });
+
+// FitVid
+$("#video").fitVids();
+
+//Video PLayer
+$('vieo').videomediaelement();
