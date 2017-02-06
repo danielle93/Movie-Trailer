@@ -1,11 +1,6 @@
-//Main Stylesheet
+// GRAND CENTERAL STATION. TOX. Vertex. HUB.
 
-//Color Palette
-body{
-  background: rosybrown;
-}
-
-h1{
-    text-transform: uppercase;
-    color: aliceblue;
-}
+@import "global";
+@import "grid";
+@import "typography";
+@import "video";
