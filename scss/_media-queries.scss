@@ -12,12 +12,11 @@
        content: "Mobile Size";
   }
     
-    p{
-    color: $primary-color;
-    margin: 0 auto;
-    font-size: .8em;
-    width: 50%;
-}
+    
+    section{
+        width: 100%;
+    }  
+    
 }
 
 /* Tablet:  768px = 160em */
@@ -31,9 +30,7 @@
         justify-content: space-between;
     }
     
-    main article,
-    main aside {
-        width: 50%;
+
     }
     
   /* Diagnostic Styling. Delete When Done. */
