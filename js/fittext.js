@@ -1,4 +1,3 @@
-// Paste jQuery Plugin Code Here
 /*global jQuery */
 /*!
 * FitText.js 1.2
@@ -10,9 +9,9 @@
 * Date: Thu May 05 14:23:00 2011 -0600
 */
 
-(function ($) {
+(function( $ ){
 
-  $.fn.fitText = function(kompressor, options) {
+  $.fn.fitText = function( kompressor, options ) {
 
     // Setup options
     var compressor = kompressor || 1,

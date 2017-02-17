@@ -1,13 +1,54 @@
-// **Global Stylesheet**
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import "compass/css3";
 
-//Main Stylesheet
+// Global Stylesheet
 
-//Color Palette
-body{
-  background: rosybrown;
-}
+// Color Palette
+$primary-color: white;
+$secondary-color: blue;
 
-h1{
+// Typography
+h1 {
+    color: $primary-color;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
     text-transform: uppercase;
-    color: #fff6f0;
+    text-shadow: 0 0 150px #0066ff , 0 0 30px #0066ff;
+    margin: 0;
+    text-align: center;
+    
 }
+
+h2{
+    color: $primary-color;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-shadow: 0 0 150px #0066ff , 0 0 30px #0066ff;
+    margin: 0;
+    
+
+}
+
+
+p{
+    color: $primary-color;
+    text-align: center;
+    font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+}
+
+// Video Player Styling
+video {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+//html{
+//    background: url(/img/bg.jpg) no-repeat fixed;
+//    background-size: cover;
+//}

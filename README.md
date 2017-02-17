@@ -1,8 +1,6 @@
-# Movie Name
+# Content Priority Outline
 
-## Content Priority Checklist
-
-1. Trailer
-2. Title
-3. Buy Tickets
-4. Fina a Theater
+1. Item 1
+2. Item 2
+3. Item 3
+4. etc. 

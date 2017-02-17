@@ -1,12 +1,15 @@
-// FitTex
-$('h1').fitText(1.8);
-
-$
 // Lettering
 $('h1').lettering();
 
-// FitVid
-$("#video").fitVids();
+//FitText
+$('h1').fitText(1.2);
 
-//Video PLayer
-$('vieo').videomediaelement();
+// Video Player
+$('video').mediaelementplayer();
+
+
+//Background Video
+$('#video').YTPlayer({
+    fitToBackground: true,
+    videoId: 'vYsj4NkC4lM'
+});
