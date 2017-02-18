@@ -1,350 +1,64 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width">
 
-  <title>Movie Trailer</title>
- 
- <link rel="icon" href="favicon.ico" type="image/x-icon">
- 
- 
-  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">  
-  <link rel="stylesheet" href="css/styles.css">	
-	
-</head>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Movie Trailer</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">
+    <link rel="stylesheet" href="css/styles.css"> </head>
+
 <body class="page">
     <div id="video">Overrated BG video?</div>
-<style>
     
-    @import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
-
-    
-    html { 
-      background: url(img/bg.jpg) no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-}
-    }    
-
-// Typography
-h1 {
-    color: $primary-color;
-    font-family: 'Oswald', sans-serif;
-    font-size: 5em;
-    text-transform: uppercase;
-    text-shadow: 0 0 150px #0066ff , 0 0 30px #0066ff;
-    margin: 0;
-    text-align: center;
-    
-}
-
-
-    h2 {
-    color: $primary-color;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1em;
-    text-transform: uppercase;
-    text-shadow: 0 0 150px #0066ff , 0 0 30px #0066ff;
-/*    margin: 0 auto;*/
-        margin-top: 1em;
-    margin-bottom: 1.7em;
-    
-    }
-    
-    h2#trailerbtn {
-    color: $primary-color;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1em;
-    text-transform: uppercase;
-    text-shadow: 0 0 150px #0066ff , 0 0 30px #0066ff;
-    margin: 450px auto;
-    
-    }
-    
-    h3{
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1em;
-    text-transform: uppercase;
-    text-shadow: 0 0 150px #0066ff , 0 0 30px #0066ff;
-    margin: 0;
-    }
-    
-    img {
+    <!-- Header-->
+    <header>
+        <h1 class="glitch" data-text="THE POUGHKEEPSIE TAPES">THE POUGHKEEPSIE TAPES</h1>
+         <div id="viewtrailer"> <a href="#view">View The Trailer</a> </div> </header>
         
-        margin: 0 auto;
-        width: 170px
-    }
-   
+    <!-- Main Content -->
+    <!-- Video Section -->
+    <section>
+        <video id="view">
+            <source src="video/trailer.mp4" type="video/mp4" />
+            <source src="video/trailer.ogg" type="video/ogg" /> </video>
+    </section>
+    <main>
+       <!-- Aside -->
+        <div>
+            <ul>
+                <li>
+                    <a href="http://www.imdb.com/title/tt1010271/"><img id="rating" src="img/star-rating.png" alt=""></a>
+                </li>
+                <li><a href="#">Watch It Here</a></li>
+                <li><a href="http://www.imdb.com/title/tt1010271/reviews?ref_=tt_ov_rt">Read Reviews</a></li>
+            </ul>
+        </div>
+        <!-- Article -->
+        <article>
+            <h2>R &nbsp; | &nbsp; 1h 26min &nbsp; | &nbsp; Horror, Mystery, Thriller &nbsp; | &nbsp; 2007</h2>
+            <p>In an abandoned house in Poughkeepsie, New York murder investigators uncover hundreds of tapes showing decades of a serial killer's work. The Poughkeepsie Tapes is a 2007 American documentary-style horror film directed by John Erick Dowdle and starring Bobbi Sue Luther, Samantha Robson and Ivar Brogger. The film has become known for its troubled release history; despite being completed in 2007, the film's only release to the general public occurred in 2014, seven years later. A very rare film and it's not possible to find a physical copy.</p>
+            <p><strong>Director</strong> John Erick Dowdlep </p>
+            <p><strong>Writers:</strong> Drew Dowdle (story), John Erick Dowdle</p>
+            <p><strong>Cast:</strong> Stacy Chbosky (Cheryl Dempsey), Ben Messmer (Ed) Samantha Robson (Samantha), Ivar Brogger (Leonard Schway), Lou George (Felton Lewis), Amy Lyndon (Alice Endrisart), Michael Lawson (Simon Alray), Ron Harper (Mike Moakes), Kim Kenny (Pam Frears)</p>
+        </article>
     
-    }
-        
-    article {
-    justify-content: space-between;
-    color: white;
-    text-align: left;
-    font-size: 1.5em;
-    width: 80%;
-    background: rgba(0,0,0,.8);
-    padding: 1em;
-}
-    
-    footer{
-    color: $primary-color;
-    text-align: center;
-    font-size: 1em;
-    }
-    
-    aside{
-        margin: 0;
-    }
-    
-    a{
-    text-decoration: none;
-}
-    
-    section{
-        width: 60%;
-        margin: 0 auto;
-    }    
-    
-video {
-    max-width: 100%;
-    margin: 0 auto;
-}
-    
-#video{
- position: relative;
- background: transparent;
-}
-
-.ytplayer-container{
- position: absolute;
- top: 0;
- z-index: -1;
-margin: 0 auto;
-}
-
-}
-    @keyframes noise-anim {
-  0% {
-    clip: rect(54px, 9999px, 30px, 0);
-  }
-  5% {
-    clip: rect(46px, 9999px, 11px, 0);
-  }
-  10% {
-    clip: rect(10px, 9999px, 47px, 0);
-  }
-  15% {
-    clip: rect(58px, 9999px, 80px, 0);
-  }
-  20% {
-    clip: rect(84px, 9999px, 63px, 0);
-  }
-  25% {
-    clip: rect(48px, 9999px, 15px, 0);
-  }
-  30% {
-    clip: rect(16px, 9999px, 9px, 0);
-  }
-  35% {
-    clip: rect(97px, 9999px, 30px, 0);
-  }
-  40% {
-    clip: rect(87px, 9999px, 32px, 0);
-  }
-  45% {
-    clip: rect(39px, 9999px, 100px, 0);
-  }
-  50% {
-    clip: rect(97px, 9999px, 54px, 0);
-  }
-  55% {
-    clip: rect(18px, 9999px, 43px, 0);
-  }
-  60% {
-    clip: rect(100px, 9999px, 26px, 0);
-  }
-  65% {
-    clip: rect(67px, 9999px, 63px, 0);
-  }
-  70% {
-    clip: rect(70px, 9999px, 59px, 0);
-  }
-  75% {
-    clip: rect(64px, 9999px, 64px, 0);
-  }
-  80% {
-    clip: rect(88px, 9999px, 92px, 0);
-  }
-  85% {
-    clip: rect(20px, 9999px, 15px, 0);
-  }
-  90% {
-    clip: rect(23px, 9999px, 78px, 0);
-  }
-  95% {
-    clip: rect(77px, 9999px, 8px, 0);
-  }
-  100% {
-    clip: rect(93px, 9999px, 7px, 0);
-  }
-}
-.glitch:after {
-  content: attr(data-text);
-  position: absolute;
-/*  left: 2px;*/
-  text-shadow: -1px 0 red;
-/*  top: 0;*/
-  color: white;
-/*  background: black;*/
-  overflow: hidden;
-  clip: rect(0, 900px, 0, 0);
-  animation: noise-anim .1s infinite linear alternate-reverse;
-}
-
-@keyframes noise-anim-2 {
-  0% {
-    clip: rect(74px, 9999px, 13px, 0);
-  }
-  5% {
-    clip: rect(1px, 9999px, 90px, 0);
-  }
-  10% {
-    clip: rect(72px, 9999px, 94px, 0);
-  }
-  15% {
-    clip: rect(25px, 9999px, 53px, 0);
-  }
-  20% {
-    clip: rect(23px, 9999px, 78px, 0);
-  }
-  25% {
-    clip: rect(93px, 9999px, 77px, 0);
-  }
-  30% {
-    clip: rect(3px, 9999px, 97px, 0);
-  }
-  35% {
-    clip: rect(8px, 9999px, 23px, 0);
-  }
-  40% {
-    clip: rect(25px, 9999px, 30px, 0);
-  }
-  45% {
-    clip: rect(57px, 9999px, 88px, 0);
-  }
-  50% {
-    clip: rect(6px, 9999px, 62px, 0);
-  }
-  55% {
-    clip: rect(72px, 9999px, 16px, 0);
-  }
-  60% {
-    clip: rect(24px, 9999px, 55px, 0);
-  }
-  65% {
-    clip: rect(47px, 9999px, 47px, 0);
-  }
-  70% {
-    clip: rect(74px, 9999px, 81px, 0);
-  }
-  75% {
-    clip: rect(58px, 9999px, 31px, 0);
-  }
-  80% {
-    clip: rect(51px, 9999px, 31px, 0);
-  }
-  85% {
-    clip: rect(100px, 9999px, 40px, 0);
-  }
-  90% {
-    clip: rect(81px, 9999px, 30px, 0);
-  }
-  95% {
-    clip: rect(58px, 9999px, 29px, 0);
-  }
-  100% {
-    clip: rect(62px, 9999px, 41px, 0);
-  }
-}
-.glitch:before {
-  content: attr(data-text);
-  position: absolute;
-
-  text-shadow: 3px 0 rgba(0,0,255,.8);
-  color: lightcyan;
-  overflow: hidden;
-  clip: rect(0, 900px, 0, 0);
-  animation: noise-anim-2 2s infinite linear alternate-reverse;
-}
- 
-    </style>
-
-
-<!-- Header-->
-
-<header>
-    <h1 class="glitch" data-text="THE POUGHKEEPSIE TAPES">THE POUGHKEEPSIE TAPES</h1>
-</header>
-    
-
-<!-- Main Content -->
-
- 
-<!-- Video Section -->
-
-<div>
-    <a href="#view"><h2 id="trailerbtn">View The Trailer</h2></a>
-</div>
-
-<section> 
-    <video id="view">
-      <source src="video/trailer.mp4" type="video/mp4" />
-      <source src="video/trailer.ogg" type="video/ogg" />
-    </video>
-</section> 
-
-<main>
-    
-    <!-- Article -->
-    <article>
-        <h3><span>R</span> | <span>1h 26min</span> | <span>Horror, Mystery, Thriller</span> | 2007</h3>
-        <p>In an abandoned house in Poughkeepsie, New York murder investigators uncover hundreds of tapes showing decades of a serial killer's work.</p>      
-    </article>
-      
-
- 
- <!-- Aside -->
-    <div>
-        <ul>
-           <li><a href="http://www.imdb.com/title/tt1010271/"><img id="rating" src="img/star-rating.png" alt=""></a></li>
-            <li><a class="buy" href="#"><h2>Watch It Here</h2></a></li>
-            <li><a href="http://www.imdb.com/title/tt1010271/reviews?ref_=tt_ov_rt"><h2> Read Reviews</h2></a></li>
-        </ul>
-    </div>
-    
-</main>
-  
-        	      	
-<!-- Footer -->
+    </main>
+    <!-- Footer -->
     <footer>
-        <p>Copyright 2017</p>
+        <p>&#x24B8; 2017</p>
     </footer>
-									
-<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<!-- Plugins -->
-  	<script src="js/mediaelementplayer.js"></script>
-  	<script src="js/lettering.js"></script>
-  	<script src="js/fittext.js"></script>
-  	<script src="js/ytbackgound.js"></script>
-<!-- YO'Scripts -->
-  	<script src="js/scripts.js"></script>
-  	
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- Plugins -->
+    <script src="js/mediaelementplayer.js"></script>
+    <script src="js/lettering.js"></script>
+    <script src="js/fittext.js"></script>
+    <script src="js/ytbackgound.js"></script>
+    <script src="js/fitvids.js"></script>
+    <!-- YO'Scripts -->
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
