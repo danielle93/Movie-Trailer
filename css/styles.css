@@ -83,7 +83,7 @@ section{
 }
 
 #viewtrailer{
-    margin-top: 40em;
+    margin-top: 500em;
     text-align: center;
 }
 
@@ -796,10 +796,7 @@ video {
     .page {
         display: block
     }
-    body:before {
-        background: red;
-        content: "Mobile Size"
-    }
+    
     h3 {
         padding: .2em 2em;
     }
@@ -824,17 +821,11 @@ video {
     main aside {
         width: 50%
     }
-    body:before {
-        background: blue;
-        content: "Tablet Size"
-    }
+    
 }
 
 @media screen and (min-width: 80em) {
-    body:before {
-        background: blue;
-        content: "Desktop Size"
-    }
+
 }
 
 
