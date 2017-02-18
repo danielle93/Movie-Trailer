@@ -1,7 +1,6 @@
 # Content Priority Outline
 
-1. Title
-2. Trailer
-3. Buy Movie/Tickets
-4. Summary
-5. Ratings & Review
+1. Item 1
+2. Item 2
+3. Item 3
+4. etc. 
