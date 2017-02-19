@@ -6,8 +6,9 @@
 
 /*Background*/
 
-body {
-    background-color: #000;
+html {
+    background: url(/img/tapes.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
 
 header,
