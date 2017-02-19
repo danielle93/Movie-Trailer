@@ -7,7 +7,7 @@
 /*Background*/
 
 html {
-    background: url(/img/tapes.jpg) center center no-repeat fixed;
+    background: url("http://cdn.bloody-disgusting.com/wp-content/uploads/2015/11/found-footage1.jpg") center center no-repeat fixed;
     background-size: cover;
 }
 
