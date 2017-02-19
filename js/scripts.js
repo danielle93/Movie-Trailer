@@ -5,7 +5,7 @@ $('h1').lettering();
 $('h1').fitText(1.2);
 
 // Video Player
-$('video').mediaelementplayer();
+//$('video').mediaelementplayer();
 
 //FitVids
 $('video').fitVids();
