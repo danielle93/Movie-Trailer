@@ -20,7 +20,7 @@ footer {
 }
 
 a {
-    color: rgba(255,255,255,.4);
+    color: rgba(232,246,254,.4);
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     font-size: 1.5em;
@@ -40,10 +40,10 @@ li {
 }
 
 a:visited {
-    color: white;
+    color: rgba(232,246,254,1);
 }
 a:hover {
-     color: rgba(255,255,255, 1);
+     color: rgba(232,246,254,1);
     text-shadow: 0 0 150px #0066ff, 0 0 30px #0066ff, 0 0 30px #0066ff;
 }
 
@@ -51,7 +51,7 @@ a:hover {
 /* Typography*/
 
 h1 {
-    color: white;
+    color: rgba(232,246,254,1);;
     font-family: 'Oswald', sans-serif;
     font-size: 5em;
     text-transform: uppercase;
@@ -62,7 +62,7 @@ h1 {
 
 
 h2 {
-    color: white;
+    color: rgba(232,246,254,1);;
     font-family: 'Oswald', sans-serif;
     font-size: 1.6em;
     text-transform: uppercase;
