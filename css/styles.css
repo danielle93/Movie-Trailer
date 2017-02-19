@@ -7,7 +7,7 @@
 /*Background*/
 
 html {
-    background: url(/img/bg.jpg) no-repeat fixed;
+    background: url(/img/background.jpg) no-repeat fixed;
     background-size: cover;
 }
 
