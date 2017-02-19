@@ -7,7 +7,7 @@
 /*Background*/
 
 html {
-    background: url(/img/tapes.jpg) center center no-repeat fixed;
+    background: url(img/tapes.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
