@@ -12,9 +12,3 @@ $('video').fitVids();
 
 //FitVids
 $('#video').fitVids();
-
-//Background Video
-//$('#video').YTPlayer({
-  //  fitToBackground: true,
-   // videoId: 'vYsj4NkC4lM'
-//});
